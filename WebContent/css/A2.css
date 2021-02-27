@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+/*body{color:red;}*/
+h2 {text-align: center;}
+td{
+	width: 50%;
+}
+
+th{
+	font-weight: bold;
+	background-color: darkblue;
+	color: white;
+}
+/*
+*.myTableHead{
+	color:green;
+}
+*/

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Hier kommen noch mehr Formularelemente</h4>
+
+<form action="LoginAppl.jsp" method="get">
+	<input type="checkbox" name="zahlung" value="visa" checked /> Visacard<br>
+	<input type="checkbox" name="zahlung" value="ueberw" checked /> Überweisung<br>
+	<input type="checkbox" name="zahlung" value="amex" /> American Express<br>
+	<input type="checkbox" name="zahlung" value="post" /> Nachnahme<br>
+	<br>
+	<label><input type="radio" name="geschlecht" value="w" /> weiblich</label><br>
+	<label><input type="radio" name="geschlecht" value="m" /> m&auml;nnlich</label><br>
+	<label><input type="radio" name="geschlecht" value="d" /> divers</label><br>
+	<label><input type="radio" name="geschlecht" value="n" checked /> weiß nicht</label><br>
+	<br>
+	<p>Meine Lehrveranstaltungen</p>
+	<select name="lehrveranstaltung" multiple size="5">
+		<option value="BW440" selected>Webanwendungen</option>
+		<option value="BW511">Informationssicherheit</option>
+		<option value="BW520" selected>Praktikum Anwendungssysteme</option>
+		<option value="MW142">IT Security</option>
+	</select>
+	
+	<br>
+	<input type="submit" name="abDafuer" value="Abschicken" />
+</form>
+
+</body>
+</html>

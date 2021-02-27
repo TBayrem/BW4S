@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+img {
+	vertical-align: middle;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	width: 50%;
+/*	background-image:url("");*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	border:solid 1px black;
+}
+*.imgCaipi{
+	background-image:url("../img/caipi.jpg");
+}
+*.imgMojito{
+	background-image:url("../img/mojito.jpg");
+}
+

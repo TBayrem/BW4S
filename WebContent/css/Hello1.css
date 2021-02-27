@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+h1{
+	text-align:left;
+	font-weight:bold;
+	color:green;
+/*	font-family:Arial, sans-serif; */
+	font-family:monospace;
+	font-size:40px;
+}
+h2{
+	text-align:center;
+	font-style:italic;
+	color:magenta;
+	font-family:cursive, serif;
+	font-size:30px;
+	
+}
+span.unsinnig{
+	text-decoration:line-through;
+}
+*.gerahmt{
+	border:2px solid blue
+}
+*.abstand{
+	margin:48px 24px 24px 48px;
+	border: 2px dashed red;
+	padding:10px;
+}
+span#veryspecial{
+	font-family:fantasy;
+	color:purple;
+	font-size:1cm;
+}
+div#specialContainer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+

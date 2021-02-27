@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Download your Traumpartner</title>
+<link type="text/css" rel="stylesheet" href="../css/A2.css" />
+</head>
+<body>
+<form action="../html/LoginAppl.jsp" method="get">
+<!-- <form action="http://www.roeckle.de/buecher" method="get"> -->
+<table>
+	<tr>
+		<td colspan="2">
+			<h2>Traumpartner now!</h2>
+		</td>
+	</tr>
+	<tr>
+		<th class="myTableHead">Mitglied werden</th>
+		<th class="myTableHead">Login f&uuml;r Mitglieder</th>
+	</tr>
+	<tr>
+		<td><a href="">jetzt kostenlos registrieren</a></td>
+		<td>
+
+
+			<table>
+				<tr>
+					<td>Pseudonym:</td>
+					<td>
+						<input type="text"
+								name="userid"
+								value=""
+								placeholder="Dein Nickname?" 
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td>Passwort:</td>
+					<td>
+						<input type="password"
+								name="password"
+								value=""
+						/>
+					</td>
+				</tr>
+			</table>
+
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<th colspan="2" class="myTableHead">Wen oder was suchen Sie?</th>	
+	</tr>
+	<tr>
+		<td>
+			<h4>Was darf's sein?</h4>
+			<label><input type="checkbox" name="art" value="m" /> M&auml;nner</label><br>
+			<label><input type="checkbox" name="art" value="f" /> Frauen</label><br>
+			<label><input type="checkbox" name="art" value="v" /> Vampire</label><br>
+			<label><input type="checkbox" name="art" value="z" /> Zombies</label><br>
+			<label><input type="checkbox" name="art" value="y" /> Yetis</label><br>
+			<br>
+			<label><input type="radio" name="foto" value="1" /> nur mit Foto</label><br>
+			<label><input type="radio" name="foto" value="2" /> nur ohne Foto</label><br>
+			<label><input type="radio" name="foto" value="3" checked /> Foto ist mir egal</label><br>
+		</td>
+		<td>
+			<h4>Alter?</h4>
+			<select name="alter">
+				<option value="20">18-20</option>			
+				<option value="30">20-30</option>			
+				<option value="40">30-40</option>			
+				<option value="60">40-60</option>			
+				<option value="100">60-100</option>			
+			</select>
+			<h4>Besonderheiten?</h4>
+			<textarea name="myText" rows="5" cols="30">na?
+			</textarea>
+			<br>
+			<br>
+			<input type="submit" name="suchen" value="Suche starten" />
+
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
