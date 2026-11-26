@@ -20,10 +20,6 @@ public class AppInstallAccountTable {
 	
 //	public void createConnection() throws ClassNotFoundException, SQLException {
 //		Class.forName("org.postgresql.Driver");
-//		System.out.println("JDBC-Treiberklasse geladen");
-//		this.dbConn = DriverManager.getConnection("jdbc:postgresql://143.93.200.243:5432/BWUEBDB",
-//									"user1",
-//									"pgusers"
 //									);
 //		System.out.println("JDBC-Connection hergestellt");
 //	}
