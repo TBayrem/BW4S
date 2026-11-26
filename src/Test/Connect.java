@@ -12,12 +12,12 @@ public class Connect {
 		Class.forName("org.postgresql.Driver");
 		System.out.println("JDBC-Treiber erfolgreich geladen");
 		dbConn = DriverManager.getConnection(
-				"jdbc:postgresql://143.93.200.243:5432/BWUEBDB",
-				"user1",
-				 "pgusers");
+				System.getenv().getOrDefault("DB_URL", "jdbc:postgresql://localhost:5432/postgres"),
+				System.getenv().getOrDefault("DB_USER", "postgres"),
+				 System.getenv().getOrDefault("DB_PASSWORD", ""));
 											
 		System.out.println("Datenbankverbindung erfolgreich angelegt");
-		String sql = "create table bw440_632996.accountbayrem                ("
+		String sql = "create table public.account                ("
 				+ "				userid   CHAR(16) NOT NULL PRIMARY KEY,"
 				+ "				password CHAR(32) NOT NULL            ,"
 				+ "				active   CHAR(1)  NOT NULL DEFAULT 'Y',"
